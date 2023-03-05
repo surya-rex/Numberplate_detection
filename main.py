@@ -1,7 +1,7 @@
 import cv2
 
 # Loading the required haar-cascade xml classifier file
-haar_cascade = cv2.CascadeClassifier('resource/haarcascade_russian_plate_number.xml')
+haar_cascade = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml')
 
 cap=cv2.VideoCapture(0)
 count=0
