@@ -28,5 +28,5 @@ while True:
 
     if cv2.waitKey(1)&0xFF==ord('S'):
 
-        cv2.imwrite("resource/saved/Noplate_"+str(count)+".jpg",crop_img)
+        cv2.imwrite("saved/Noplate_"+str(count)+".jpg",crop_img)
         count+=1
